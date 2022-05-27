@@ -10,7 +10,7 @@ This action will assign the PR/issue to given users if they are requested review
 
 ## Example usage
 
-uses: ./.github/actions/assign-reviewers
+```uses: TheoNoyau/assign-reviewers-action@v1.0
 with:
-    who-to-assign: etiennebatise
-    GITHUB_TOKEN: github_token
+    who-to-assign: TheoNoyau User2
+    GITHUB_TOKEN: github_token```
