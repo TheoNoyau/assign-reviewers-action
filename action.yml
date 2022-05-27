@@ -1,4 +1,4 @@
-name: 'Assign reviewers'
+name: 'Assign desired requested reviewers to PR/Issue'
 description: 'Assign configured users on review'
 inputs:
   GITHUB_TOKEN:
