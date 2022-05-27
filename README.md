@@ -13,5 +13,5 @@ This action will assign the PR/issue to given users if they are requested review
 ```uses: TheoNoyau/assign-reviewers-action@v1.0
 with:
     who-to-assign: TheoNoyau User2
-    GITHUB_TOKEN: github_token
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
