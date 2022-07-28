@@ -12,7 +12,7 @@ try {
     } else if (github.context.eventName === 'pull_request_review') {
         const author = [github.context.payload.pull_request.author];
         console.log("---------")
-        console.log(author)
+        console.log(github.context.payload.pull_request)
         whoToAssign = author.filter(a => whoToAssign.includes(a));
     }
 
